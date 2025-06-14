@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Guest List Manager</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./src/index.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>
+      <img src="./images/event-list.png" alt="Event Icon" class="heading-icon">
+      Event Guest List Manager
+    </h1>
+
+    <form id="guest-form">
+      <input type="text" id="guest-name" placeholder="Enter guest Full Name" required>
+      <select id="guest-category">
+        <option value="Family">Family</option>
+        <option value="Friend">Friend</option>
+        <option value="Colleague">Colleague</option>
+      </select>
+      <button type="submit">Add The Guest</button>
+    </form>
+
+    <h2>Guest List</h2>
+    <ul id="guest-list"></ul>
+  </div>
+</body>
+</html>

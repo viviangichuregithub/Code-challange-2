@@ -1,0 +1,114 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #8FD9FB;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  
+}
+.container {
+  background:white;
+  padding: 180px;
+  padding-top: 10px;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: black;
+}
+.heading-icon {
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+
+button {
+  background-color: #8FD9FB;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:pink;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  background: lightgrey;
+  padding: 15px;
+  border-left: 6px solid;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+li span, li small {
+  display: block;
+}
+li small {
+  font-size: 0.8rem;
+  color: grey;
+}
+button.guest-action {
+  background: darkgrey;
+  color: black;
+  border: none;
+  padding: 6px 10px;
+  margin: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.guest-action:hover {
+  background: whitesmoke;
+}
+.category-Family {
+  border-color: red;
+}
+.category-Friend {
+  border-color: orange;
+}
+.category-Colleague {
+  border-color: #8cc6f5;
+}
+
+.guest-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+.status-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
