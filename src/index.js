@@ -16,17 +16,17 @@ form.addEventListener("submit", function (e) {
   if (!name) return;//ensures everything is there
 
 // It ensure u dont put the same guest by looking both name and category
-const isDuplicate = guests.some(
+const isDuplicateName = guests.some(
   (guest) => guest.name.toLowerCase() === name.toLowerCase() && guest.category === category
 );
 
-if (isDuplicate) {
+if (isDuplicateName) {
   alert("Oops! This guest is already on the list");
   return;
 }
 
 if (guests.length >= 10) {
-  alert("You've hit the guest limit (10 max)");
+  alert("You've hit the guest limit");
   return;// alerts the user the that they can only add 10 users only 
 }
 
