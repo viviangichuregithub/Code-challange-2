@@ -1,4 +1,4 @@
-# Guest List App
+# Guest List page 
 
 A simple, interactive web page for managing a guest list. You can add guests, assign them categories (Friend, Family, or Colleague), track their attendance status, and prevent duplicate entries.
 
