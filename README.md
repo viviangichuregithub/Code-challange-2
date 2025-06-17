@@ -33,6 +33,10 @@ Each guest entry shows:
 - Guest name check is **case-insensitive**.
 - You can add a max of **10 guests**.
 
+## Author
+**Vivian Gichure**  
+Email: viviangichure@gmail.com  
+GitHub: https://github.com/viviangichuregithub/Code-challange-2
 
 
 
